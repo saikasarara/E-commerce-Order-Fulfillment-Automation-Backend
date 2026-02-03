@@ -307,8 +307,7 @@ shipments[shipmentCount++] = sh;
 public void printOrdersSummary() {
 System.out.print("\n" + Utils.ANSI_BLUE + "Orders:" + Utils.ANSI_RESET
 + "\n");
-System.out.print(Utils.ANSI_BLUE + "OrderID | Status | Payment Mode |
-Address" + Utils.ANSI_RESET + "\n");
+System.out.print(Utils.ANSI_BLUE + "OrderID | Status | Payment Mode |Address" + Utils.ANSI_RESET + "\n");
 for (int i = 0; i < orderCount; i++) {
 Order o = orders[i];
 System.out.print(o.orderId + " | " + o.status + " | " +

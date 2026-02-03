@@ -92,8 +92,7 @@ Utils.ANSI_RESET + "\n");
 for (int i = 0; i < dp.productCount; i++) {
 Product p = dp.products[i];
 System.out.print((i + 1) + ") " + p.productId + " - " + p.name +
-" (Price: " + p.price + ", Stock: " + p.stock + ")
-\n");
+" (Price: " + p.price + ", Stock: " + p.stock + ")\n");
 }
 while (true) {
 String choiceStr = ask(console,
@@ -117,27 +116,20 @@ System.out.print(Utils.ANSI_PINK + "Quantity must be positive."
 continue;
 }
 if (qty > selected.stock) {
-System.out.print(Utils.ANSI_PINK + "Only " + selected.stock + "
-in stock for " +
-selected.productId + "." + Utils.ANSI_RESET +
-"\n");
+System.out.print(Utils.ANSI_PINK + "Only " + selected.stock + "in stock for " +selected.productId + "." + Utils.ANSI_RESET +"\n");
 continue;
 }
 o.addItem(new Item(selected.productId, qty));
-System.out.print("Added " + qty + " x " + selected.name + " to
-order.\n");
+System.out.print("Added " + qty + " x " + selected.name + " to order.\n");
 }
 if (o.itemCount <= 0) {
-System.out.print(Utils.ANSI_PINK + "No items selected. Order
-canceled." + Utils.ANSI_RESET + "\n");
+System.out.print(Utils.ANSI_PINK + "No items selected. Order canceled." + Utils.ANSI_RESET + "\n");
 return;
 }
 // Save the new order and log the intake
 dp.addOrder(o);
-log.write(o.orderId, "ORDER_INTAKE", "OK", "Order accepted into system
-(PENDING)");
-System.out.print(Utils.ANSI_PINK + "✅ Order " + o.orderId + " accepted
-and saved as PENDING." + Utils.ANSI_RESET + "\n");
+log.write(o.orderId, "ORDER_INTAKE", "OK", "Order accepted into system (PENDING)");
+System.out.print(Utils.ANSI_PINK + "✅ Order " + o.orderId + " accepted and saved as PENDING." + Utils.ANSI_RESET + "\n");
 }
 private void processOrder(String orderId, BufferedReader console) throws
 Exception {
@@ -198,8 +190,7 @@ br = new BufferedReader(new
 FileReader(dp.path("purchase_history.txt")));
 System.out.print("\n" + Utils.ANSI_BLUE + "Purchase History:" +
 Utils.ANSI_RESET + "\n");
-System.out.print(Utils.ANSI_BLUE + "OrderID | Payment Mode | Status
-| Total" + Utils.ANSI_RESET + "\n");
+System.out.print(Utils.ANSI_BLUE + "OrderID | Payment Mode | Status| Total" + Utils.ANSI_RESET + "\n");
 String line;
 boolean foundAny = false;
 while ((line = br.readLine()) != null) {
