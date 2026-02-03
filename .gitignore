@@ -1,0 +1,7 @@
+*.class
+*.log
+*.tmp
+.DS_Store
+*.iml
+*.swp
+out/
