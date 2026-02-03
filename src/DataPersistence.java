@@ -305,14 +305,23 @@ public void addShipment(Shipment sh) {
 shipments[shipmentCount++] = sh;
 }
 public void printOrdersSummary() {
-System.out.print("\n" + Utils.ANSI_BLUE + "Orders:" + Utils.ANSI_RESET
-+ "\n");
-System.out.print(Utils.ANSI_BLUE + "OrderID | Status | Payment Mode |Address" + Utils.ANSI_RESET + "\n");
-for (int i = 0; i < orderCount; i++) {
-Order o = orders[i];
-System.out.print(o.orderId + " | " + o.status + " | " +
-o.paymentMode + " | " + o.address + "\n");
-}
+    System.out.print("\n" + Utils.ANSI_BLUE + "Orders:" + Utils.ANSI_RESET + "\n");
+    System.out.print(Utils.ANSI_BLUE +
+        Utils.pad("OrderID", 10) +
+        Utils.pad("Status", 12) +
+        Utils.pad("Payment", 12) +
+        Utils.pad("Address", 20) +
+        Utils.ANSI_RESET + "\n");
+
+    for (int i = 0; i < orderCount; i++) {
+        Order o = orders[i];
+        System.out.print(
+            Utils.pad(o.orderId, 10) +
+            Utils.pad(o.status, 12) +
+            Utils.pad(o.paymentMode, 12) +
+            Utils.pad(o.address, 20) + "\n"
+        );
+    }
 }
 private int toInt(String s) {
 if (s == null) return 0;

@@ -15,6 +15,14 @@ hex[i * 2 + 1] = digits[v & 0x0F];
 }
 return new String(hex);
 }
+public static String pad(String s, int width) {
+    if (s == null) s = "";
+    while (s.length() < width) {
+        s += " ";
+    }
+    return s;
+}
+
 public static String padLeft(int n, int width) {
 
 String s = "" + n;
