@@ -1,0 +1,4 @@
+P1001|Electronics|Samsung|Galaxy Phone|500|10
+P1002|Electronics|Apple|iPhone|1000|8
+P1003|Computers|Dell|Laptop|750|5
+P1004|Accessories|Sony|Headphones|150|20
