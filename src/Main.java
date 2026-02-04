@@ -5,34 +5,26 @@ public class Main {
     public static void main(String[] args) {
         try {
             BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
-
-            // Load all data from ./data/
             DataPersistence dp = new DataPersistence("data");
             dp.loadAll();
-
-            // Set up shared logger
             Log log = new Log(dp);
-
-            // Create service instances
             ValidationService validator = new ValidationService(log);
             InventoryService inventory = new InventoryService(dp, log);
-            InvoiceService invoice = new InvoiceService(dp, log);
-            PaymentService payment = new PaymentService(log);
-            ShippingService shipping = new ShippingService(dp, log);
-
-            // Run main workflow
-            Workflow flow = new Workflow(dp, log, validator, inventory, invoice, payment, shipping);
-            if (flow.adminLogin(console)) {
-                flow.adminDashboard(console);
+            InvoiceService invoiceService = new InvoiceService(dp, log);
+            PaymentService paymentService = new PaymentService(log);
+            ShippingService shippingService = new ShippingService(dp, log);
+            Workflow wf = new Workflow(dp, log, validator, inventory, invoiceService, paymentService, shippingService);
+            System.out.print("=== Order Fulfillment Automation ===\n");
+            if (!wf.adminLogin(console)) {
+                System.out.print("Exiting...\n");
+                return;
             }
-
-            // Save updated data
+            wf.adminDashboard(console);
             dp.saveAll();
-
-            System.out.print("\n" + Utils.ANSI_PINK + "Exiting system. Goodbye!" + Utils.ANSI_RESET + "\n");
-
+            System.out.print("Saved. Bye.\n");
         } catch (Exception e) {
-            System.out.print("Fatal error: " + e.getMessage() + "\n");
+            System.out.print("Fatal Error: " + e.getMessage() + "\n");
         }
     }
 }
+

@@ -1,21 +1,21 @@
-ProductID|Name|Stock
-M101|Galaxy A14 (4/64)|17
-M102|Redmi 12 (8/128)|25
-M103|C55 (8/128)|15
-M104|G21 (6/128)|10
-L201|Pavilion 15 (i5)|6
-L202|Inspiron 14 (i5)|5
-L203|IdeaPad 3 (i5)|8
-L204|VivoBook 15 (i5)|1
-H301|Ceiling Fan|12
-H302|Stand Fan|8
-H303|Table Fan|10
-H304|Rechargeable Fan|6
-A401|WH-1000XM4|5
-A402|Tune 510BT|18
-A403|Soundcore Q10|20
-A404|Crusher Evo|4
-P501|Mi Power Bank 3|30
-P502|PowerCore 20K|12
-P503|Bipow 20W|18
-P504|RPP-20|0
+M101 | Galaxy A14 (4/64)      | 19999 | 19  
+M102 | Redmi 12 (8/128)      | 18999 | 25  
+M103 | C55 (8/128)           | 19500 | 15  
+M104 | G21 (6/128)           | 17500 | 10  
+L201 | Pavilion 15 (i5)      | 72000 | 6  
+L202 | Inspiron 14 (i5)      | 75000 | 5  
+L203 | IdeaPad 3 (i5)        | 68000 | 8  
+L204 | VivoBook 15 (i5)      | 70000 | 4  
+H301 | Ceiling Fan           | 6200  | 12  
+H302 | Stand Fan             | 6800  | 8  
+H303 | Table Fan             | 5500  | 10  
+H304 | Rechargeable Fan      | 7800  | 6  
+A401 | WH-1000XM4            | 32000 | 5  
+A402 | Tune 510BT            | 7999  | 18  
+A403 | Soundcore Q10         | 6999  | 20  
+A404 | Crusher Evo           | 29000 | 4  
+P501 | Mi Power Bank 3       | 2399  | 28  
+P502 | PowerCore 20K         | 4999  | 12  
+P503 | Bipow 20W             | 3499  | 18  
+P504 | RPP-20                | 2999  | 15  
+

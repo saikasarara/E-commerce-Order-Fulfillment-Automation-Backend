@@ -1,20 +1,21 @@
-M101|Mobile|Samsung|Galaxy A14 (4/64)|19999|17
-M102|Mobile|Xiaomi|Redmi 12 (8/128)|18999|25
-M103|Mobile|Realme|C55 (8/128)|19500|15
-M104|Mobile|Nokia|G21 (6/128)|17500|10
-L201|Laptop|HP|Pavilion 15 (i5)|72000|6
-L202|Laptop|Dell|Inspiron 14 (i5)|75000|5
-L203|Laptop|Lenovo|IdeaPad 3 (i5)|68000|8
-L204|Laptop|ASUS|VivoBook 15 (i5)|70000|1
-H301|Fan|Walton|Ceiling Fan|6200|12
-H302|Fan|Singer|Stand Fan|6800|8
-H303|Fan|Panasonic|Table Fan|5500|10
-H304|Fan|Vision|Rechargeable Fan|7800|6
-A401|Accessory|Sony|WH-1000XM4|32000|5
-A402|Accessory|JBL|Tune 510BT|7999|18
-A403|Accessory|Anker|Soundcore Q10|6999|20
-A404|Accessory|Skullcandy|Crusher Evo|29000|4
-P501|Power|Xiaomi|Mi Power Bank 3|2399|30
-P502|Power|Anker|PowerCore 20K|4999|12
-P503|Power|Baseus|Bipow 20W|3499|18
-P504|Power|Remax|RPP-20|2999|0
+M101|Smartphone|Samsung|Galaxy A14 (4/64)|19999|19  
+M102|Smartphone|Xiaomi|Redmi 12 (8/128)|18999|25  
+M103|Smartphone|Realme|C55 (8/128)|19500|15  
+M104|Smartphone|Nokia|G21 (6/128)|17500|10  
+L201|Laptop|HP|Pavilion 15 (i5)|72000|6  
+L202|Laptop|Dell|Inspiron 14 (i5)|75000|5  
+L203|Laptop|Lenovo|IdeaPad 3 (i5)|68000|8  
+L204|Laptop|ASUS|VivoBook 15 (i5)|70000|4  
+H301|Fan|Walton|Ceiling Fan|6200|12  
+H302|Fan|Singer|Stand Fan|6800|8  
+H303|Fan|Panasonic|Table Fan|5500|10  
+H304|Fan|Vision|Rechargeable Fan|7800|6  
+A401|Headphone|Sony|WH-1000XM4|32000|5  
+A402|Headphone|JBL|Tune 510BT|7999|18  
+A403|Headphone|Anker|Soundcore Q10|6999|20  
+A404|Headphone|Skullcandy|Crusher Evo|29000|4  
+P501|Power Bank|Xiaomi|Mi Power Bank 3|2399|28  
+P502|Power Bank|Anker|PowerCore 20K|4999|12  
+P503|Power Bank|Baseus|Bipow 20W|3499|18  
+P504|Power Bank|Remax|RPP-20|2999|15  
+
