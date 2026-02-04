@@ -1,7 +1,8 @@
 Total Orders: 4
-Completed Orders: 1
+Completed Orders: 2
 Cancelled Orders: 2
-Total Revenue: BDT 56997
+Total Revenue: BDT 68995
 Top 3 Cancellation Reasons:
-1. Payment Failed – 1
-2. Inventory Shortage – 1
+1. Inventory Shortage – 1
+2. Payment Failed – 1
+

@@ -1,12 +1,17 @@
-Order O1000 - Created
+Order O1000 - Inventory OK – stock reserved
+Order O1000 - Payment successful
 Order O1000 - Status changed to PACKED
 Order O1000 - Status changed to SHIPPED
 Order O1000 - Status changed to OUT_FOR_DELIVERY
 Order O1000 - Status changed to DELIVERED
-Order O1001 - Created
-Order O1001 - Payment failed, order cancelled
-Order O1002 - Created
-Order O1002 - Inventory shortage, order cancelled
-Order O1003 - Created
+Order O1001 - Inventory OK – stock reserved
+Order O1001 - Order cancelled – Payment failed
+Order O1002 - Order cancelled – Inventory Shortage
+Order O1003 - Inventory OK – stock reserved
+Order O1003 - Payment successful
 Order O1003 - Status changed to PACKED
+Order O1003 - Status changed to SHIPPED
+Order O1003 - Status changed to OUT_FOR_DELIVERY
+Order O1003 - Status changed to DELIVERED
+
 

@@ -1,7 +1,12 @@
 ProductID | Name | Price | Stock
-M101 | Galaxy A14 (4/64) | 19999 | 8 
-M102 | Redmi 12 (8/128) | 18999 | 12 
-L201 | Pavilion 15 | 59999 | 4 
-A301 | Wireless Mouse M185 | 2999 | 2 
-T401 | Smart LED TV 43" | 34999 | 6 
+M101 | Galaxy A14 (4/64) | 19999 | 19
+M102 | Redmi 12 (8/128) | 18999 | 23
+L201 | Pavilion 15 (i5) | 72000 | 6
+L202 | Inspiron 14 (i5) | 75000 | 5
+H301 | Ceiling Fan | 6200 | 11
+H302 | Stand Fan | 6800 | 8
+A401 | WH-1000XM4 | 32000 | 5
+A402 | Tune 510BT | 7999 | 18
+P501 | Mi Power Bank 3 | 2399 | 28
+P502 | PowerCore 20K | 4999 | 12
 
