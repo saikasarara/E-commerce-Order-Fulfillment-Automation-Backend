@@ -1,0 +1,4 @@
+2026-02-04|M101x1, A301x1
+2026-02-04|M102x5
+2026-02-04|M999x1  (invalid product ID example)
+2026-02-04|M101x0, M102x2  (zero quantity example)

@@ -1,0 +1,10 @@
+Receipt for Order O1000
+Date: 2026-01-01
+Status: DELIVERED
+--------------------------------------
+Items:
+- Galaxy A14 (4/64) (x1 @ BDT 19999 each)
+- Redmi 12 (8/128) (x2 @ BDT 18999 each)
+--------------------------------------
+Total Paid: BDT 56997
+Thank you for your purchase!

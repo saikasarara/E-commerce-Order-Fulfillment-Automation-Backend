@@ -1,10 +1,12 @@
-T1770176952154|O2001|VALIDATION|OK|Valid order  
-T1770176952204|O2001|INVENTORY|OK|Reserved stock  
-T1770176952254|O2001|INVOICE|OK|Generated INV-0001 Total=24797  
-T1770176952304|O2001|PAYMENT|OK|COD approved  
-T1770176952354|O2001|SHIPMENT|OK|Created TRK-00000001  
-T1770176952404|O2001|ORDER_COMPLETE|OK|Invoice=INV-0001 Tracking=TRK-00000001  
-T1770176952454|O2002|VALIDATION|OK|Valid order  
-T1770176952504|O2002|INVENTORY|FAIL|Insufficient stock L202  
-T1770176952554|O2002|CANCEL|OK|Inventory insufficient  
+Order O1000 - Created
+Order O1000 - Status changed to PACKED
+Order O1000 - Status changed to SHIPPED
+Order O1000 - Status changed to OUT_FOR_DELIVERY
+Order O1000 - Status changed to DELIVERED
+Order O1001 - Created
+Order O1001 - Payment failed, order cancelled
+Order O1002 - Created
+Order O1002 - Inventory shortage, order cancelled
+Order O1003 - Created
+Order O1003 - Status changed to PACKED
 

@@ -1,10 +1,12 @@
 public class Item {
     public String productId;
-    public int qty;
-    public Item() {}
-    public Item(String productId, int qty) {
+    public int quantity;
+
+    public Item(String productId, int quantity) {
         this.productId = productId;
-        this.qty = qty;
+        this.quantity = quantity;
     }
 }
+
+
 
