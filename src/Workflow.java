@@ -112,7 +112,7 @@ public class Workflow {
 
         dp.addOrder(o);
         log.write(o.orderId, "ORDER_INTAKE", "OK", "Order accepted into system (PENDING)");
-        System.out.print(Utils.ANSI_PINK + "✅ Order " + o.orderId + " accepted and saved as PENDING." + Utils.ANSI_RESET + "\n");
+        System.out.print(Utils.ANSI_PINK + "Order " + o.orderId + " accepted and saved as PENDING." + Utils.ANSI_RESET + "\n");
     }
 
     private void processOrder(String orderId, BufferedReader console) throws Exception {
@@ -145,7 +145,7 @@ public class Workflow {
             fw.close();
         } catch (Exception e) {}
 
-        System.out.print(Utils.ANSI_PINK + "✅ COMPLETED" + Utils.ANSI_RESET + "\n");
+        System.out.print(Utils.ANSI_PINK + "COMPLETED" + Utils.ANSI_RESET + "\n");
     }
 
     private void cancel(Order o, String reason) {
@@ -157,7 +157,7 @@ public class Workflow {
             fw.write(o.orderId + "|" + o.paymentMode + "|" + o.status + "|" + o.totalAmount + "\n");
             fw.close();
         } catch (Exception e) {}
-        System.out.print(Utils.ANSI_PINK + "❌ CANCELLED: " + reason + Utils.ANSI_RESET + "\n");
+        System.out.print(Utils.ANSI_PINK + "CANCELLED: " + reason + Utils.ANSI_RESET + "\n");
     }
 
     private void showPurchaseHistory() {
