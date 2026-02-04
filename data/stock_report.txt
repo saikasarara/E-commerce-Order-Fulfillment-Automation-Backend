@@ -1,5 +1,5 @@
 ProductID|Name|Stock
-P1001|Galaxy Phone|9
+P1001|Galaxy Phone|10
 P1002|iPhone|8
 P1003|Laptop|5
 P1004|Headphones|20
